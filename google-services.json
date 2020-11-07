@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "979698892938",
+    "firebase_url": "https://ecommerce-5def6.firebaseio.com",
+    "project_id": "ecommerce-5def6",
+    "storage_bucket": "ecommerce-5def6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979698892938:android:f81c499f2b7d311ba7ad73",
+        "android_client_info": {
+          "package_name": "com.ehabahmed.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979698892938-hq7psogrgmum4n3qg9s5hqljpt2l7nu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPCmAx5N3ZqV_p98e8YJOGCmIEbltZJkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979698892938-hq7psogrgmum4n3qg9s5hqljpt2l7nu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sallers.SallerRegisterationActivity">
+
+    <ImageView
+        android:id="@+id/img_saller"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/seller"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/title_saller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saller Registration Form"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:textColor="@android:color/holo_green_dark"
+        />
+
+
+<EditText
+    android:id="@+id/saller_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="15dp"
+    android:layout_marginStart="15dp"
+    android:hint="Name..."
+    android:inputType="text"
+    android:textSize="16sp"
+    />
+
+    <EditText
+        android:id="@+id/saller_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Phone..."
+        android:inputType="number"
+        android:textSize="16sp"
+        />
+
+
+    <EditText
+        android:id="@+id/saller_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email..."
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        app:hintEnabled="false"
+        >
+    <EditText
+        android:id="@+id/saller_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:background="@color/white"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+    <EditText
+        android:id="@+id/saller_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Shop - Business Addess..."
+        android:inputType="text"
+        android:textSize="16sp"
+        />
+
+
+    <Button
+        android:id="@+id/saller_registeration_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/white"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/saller_already_have_account_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="Already have an Account?"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_gravity="bottom"
+        android:padding="10dp"
+        />
+
+
+</LinearLayout>
